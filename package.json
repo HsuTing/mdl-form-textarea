@@ -1,6 +1,6 @@
 {
   "name": "mdl-form-textarea",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "textare for mdl-form",
   "main": "./lib/index.jsx",
   "scripts": {
