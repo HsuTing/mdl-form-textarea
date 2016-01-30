@@ -1,0 +1,26 @@
+{
+  "name": "mdl-form-textarea",
+  "version": "1.0.0",
+  "description": "textare for mdl-form",
+  "main": "./lib/index.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HsuTing/mdl-form-textarea.git"
+  },
+  "keywords": [
+    "Material",
+    "Design",
+    "Lite",
+    "mdl-form",
+    "mdl-form-textarea"
+  ],
+  "author": "HsuTing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HsuTing/mdl-form-textarea/issues"
+  },
+  "homepage": "https://github.com/HsuTing/mdl-form-textarea#readme"
+}
