@@ -10,7 +10,10 @@ export default class textarea extends React.Component {
     this.props.getComponents(data.id, this);
 
     return (
-      <div ref="component" className="mdl-textfield mdl-js-textfield" style={data.style}>
+      <div ref="component"
+           className={data.className === undefined ? "mdl-textfield mdl-js-textfield" : ""}
+           style={data.style}
+      >
         <textarea className="mdl-textfield__input" type="text" rows={data.rows} id={data.id} onChange={this._onChange.bind(this)}></textarea>
         <label className="mdl-textfield__label" htmlFor={data.id}>{data.label}</label>
       </div>
