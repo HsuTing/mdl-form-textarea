@@ -11,7 +11,7 @@ export default class textarea extends React.Component {
 
     return (
       <div ref="component"
-           className={data.className === undefined ? "mdl-textfield mdl-js-textfield" : ""}
+           className={data.className === undefined ? "mdl-textfield mdl-js-textfield" : data.className}
            style={data.style}
       >
         <textarea className="mdl-textfield__input" type="text" rows={data.rows} id={data.id} onChange={this._onChange.bind(this)}></textarea>
